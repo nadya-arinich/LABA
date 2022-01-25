@@ -1,0 +1,111 @@
+.icon::before{
+	content: ' ';
+    background-size: cover;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+.home::before{
+	background-image: url(../images/icon/outline_home_black_24dp.png);
+}
+
+.home:hover::before{
+	background-image: url(../images/icon/baseline_home_black_24dp.png);
+}
+
+.gallery::before{
+	background-image: url(../images/icon/outline_collections_black_24dp.png);
+}
+
+.gallery:hover::before{
+	background-image: url(../images/icon/baseline_collections_black_24dp.png);
+}
+
+.shopping::before{
+	background-image: url(../images/icon/outline_shopping_cart_black_24dp.png);
+}
+
+.shopping:hover::before{
+	background-image: url(../images/icon/baseline_shopping_cart_black_24dp.png);
+}
+
+.catalog::before{
+	background-image: url(../images/icon/outline_shopping_bag_black_24dp.png);
+}
+
+.catalog:hover::before{
+	background-image: url(../images/icon/baseline_shopping_bag_black_24dp.png);
+}
+
+.settings::before{
+	background-image: url(../images/icon/outline_settings_black_24dp.png);
+}
+
+.settings:hover::before{
+	background-image: url(../images/icon/baseline_settings_black_24dp.png);
+}
+
+.form::before {
+	background-image: url(../images/icon/outline_view_list_black_24dp.png);
+}
+
+.form:hover::before {
+	background-image: url(../images/icon/baseline_view_list_black_24dp.png);
+}
+
+.audio::before {
+	background-image: url(../images/icon/outline_audio_file_black_24dp.png);
+}
+
+.audio:hover::before {
+	background-image: url(../images/icon/baseline_audio_file_black_24dp.png);
+}
+
+.video::before {
+	background-image: url(../images/icon/outline_movie_filter_black_24dp.png);
+}
+
+.video:hover::before {
+	background-image: url(../images/icon/baseline_movie_black_24dp.png);
+}
+
+.contacts::before {
+	background-image: url(../images/icon/outline_contacts_black_24dp.png);
+}
+
+.contacts:hover::before {
+	background-image: url(../images/icon/baseline_contacts_black_24dp.png);
+}
+
+.about::before {
+	background-image: url(../images/icon/outline_manage_accounts_black_24dp.png);
+}
+
+.about:hover::before {
+	background-image: url(../images/icon/baseline_manage_accounts_black_24dp.png);
+}
+
+.working::before {
+	background-image: url(../images/icon/outline_watch_later_black_24dp.png);
+}
+
+.working:hover::before {
+	background-image: url(../images/icon/baseline_watch_later_black_24dp.png);
+}
+
+.shops::before {
+	background-image: url(../images/icon/outline_museum_black_24dp.png);
+}
+
+.shops:hover::before {
+	background-image: url(../images/icon/baseline_museum_black_24dp.png);
+}
+
+.superfixed::before {
+	background-image: url(../images/icon/outline_pending_black_24dp.png);
+}
+
+.superfixed:hover::before {
+	background-image: url(../images/icon/baseline_pending_black_24dp.png);
+}
