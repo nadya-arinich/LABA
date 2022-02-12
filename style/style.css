@@ -14,9 +14,9 @@ header {
     justify-content: center;
     height: 70px;
     align-items: center;
-    font-style: Marker Felt;
+    font-style: Bradley Hand;
     font-weight: 600;
-   
+    font-style : oblique;
 }
 
 div {
@@ -35,10 +35,6 @@ div {
 img{
 	max-width: 100px;
 	max-height: 100px;
-}
-.top{
-	font-size: 20px;
-	font-weight: bold;
 }
 
 .left-menu.button{
@@ -64,27 +60,10 @@ img{
 	flex:1;
 }
 
-.mobile {
-    width: 550px;
-    height: 300px;
-	display: block;
-    margin-left: 100px;
-    margin-right: auto 
-    
-}
-
-.right-text .tovar.tip{
-	width: 300px;
-    height: 270px;
-}
 
 .button:hover{
 	background: #ccc;
 	border: 2px solid green;
-}
-
-.buttons {
-    display: flex;
 }
 
 .button {
@@ -100,15 +79,6 @@ img{
     display: flex;
 }
 
-.buttons .button {
-    border-radius: 0;
-    margin: 2px;
-	flex: 1;
-    display: flex;
-    align-content: flex-end;
-    justify-content: center;
-    align-items: flex-end;
-}
 
 .button:first-child {
         border-bottom-left-radius: 10px;
@@ -142,20 +112,21 @@ img{
 }
 
 .images-contener {
-    flex: 1;
-    display: flex;
+	width:80%;
+    display: inline-block;
     justify-content: center;
     align-items: center; 
     margin: 2px;
     margin-bottom: 0;
-  
+ 
 }
 
-.image-contener{
+/*.image-contener{
 	display: flex;
 	flex-wrap: wrap;
 	flex: 1;
 	justify-content: center;
+	float: right;
 }
 
 .image-container{
@@ -163,8 +134,7 @@ img{
 	flex-wrap: wrap;
 	flex: 1;
 	justify-content: center;
-}
-
+}*/
 
 .images.images-contener:first-child {
         margin-left: 0;
@@ -175,44 +145,13 @@ img{
 }
 
 img {
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 100px;
+    max-height: 100px;
 }
-
-.top {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.right-text .tovar.tip.horizontal {
-    flex-direction: row;
-}
-
-.tovar.tip {
-    width: 400px;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-}
-
 
 .hotkey-name{
 	font-weight: bold;
 	color: #9c27b0;
-}
-
-footer {
-    background: #edf4f4;
-    display: flex;
-    justify-content: space-around;
-}
-
-.additional-menu{
-	display: none;
-	position: absolute;
-    margin-left: 200px;
-    background: #f9f9f9;
-	width: 200px;
 }
 
 
@@ -225,19 +164,120 @@ footer {
 	display: block;
 }
 
-li:hover .additional-menu{
-	display: block;
+.table {
+	width: 100%;
+	margin-left: 100px;
+	border: none;
+	margin-bottom: 20px;
+	border-collapse: separate;
 }
 
-        
-.page{
-display: none;
+.table thead th {
+	font-weight: bold;
+	text-align: left;
+	border: none;
+	padding: 10px 15px;
+	background: #ecc2f3;
+	font-size: 14px;
+	border-top: 1px solid #b25ec0;
 }
 
-.page:target{
-	display: block;
-	
+.table tr th:first-child, .table tr td:first-child {
+	border-left: 1px solid #b25ec0;
 }
+
+.table tr th:last-child, .table tr td:last-child {
+	border-right: 1px solid #b25ec0;
+}
+
+.table thead tr th:first-child {
+	border-radius: 20px 0 0 0;
+}
+
+.table thead tr th:last-child {
+	border-radius: 0 20px 0 0;
+}
+
+.table tbody td {
+	text-align: left;
+	border: 1px solid #b25ec0;
+	padding: 10px 15px;
+	font-size: 14px;
+	vertical-align: top;
+}
+
+.table tbody tr{
+	background: #F8F8F8;
+}
+
+.table tbody tr:last-child td{
+	border-bottom: 1px solid #b25ec0;
+}
+
+.table tbody tr:last-child td:first-child {
+	border-radius: 0 0 0 20px;
+}
+
+.table tbody tr:last-child td:last-child {
+	border-radius: 0 0 20px 0;
+}
+
+.input {
+text-align: center;
+background-color: #f5f7fa;
+height: 40px;
+width: 60px;
+border: none;
+-moz-appearance: textfield;
+-webkit-appearance: textfield;
+appearance: textfield;
+color: #242424;
+font-size: 14px;
+}
+
+.quantity {
+position: relative;
+z-index: 1;
+}
+
+.buttons {
+    border: 2px #b25ec0 solid;
+    border-radius: 10px;
+    padding: 2px 7px;
+    margin: 3px;
+    display: block;
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons:hover{
+	background: green;
+	border: 1px #b25ec0 solid ;
+}
+
+.onaspage:{
+   	display: inline-block; 
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: center;
+}
+
+.right-text .text {
+    width: 85%;
+    margin: 10px;
+    padding: 2px;
+	text-indent:50px;
+	font-weight: 800;
+	font-style : oblique;
+	font-size: 18px;
+	text-align:justify;
+ }
+
+
+
+
 
 
 

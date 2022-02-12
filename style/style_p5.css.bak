@@ -32,10 +32,10 @@ div {
 	color: red;
 }
 
-img{
+/*img{
 	max-width: 100px;
 	max-height: 100px;
-}
+}*/
 
 .left-menu.button{
 	background: #81f6b5;
@@ -101,18 +101,18 @@ img{
  
 }
 
-.images {
+/*.images {
     display: flex;
     flex:1;
-}
+}*/
 
 .images img {
-  max-width: 300px;
-  max-height: 200px;
+  max-width: 85%;
+  max-height: 70%;
 }
 
 .images-contener {
-	width:80%;
+	width:60%;
     display: inline-block;
     justify-content: center;
     align-items: center; 
@@ -145,8 +145,8 @@ img{
 }
 
 img {
-    max-width: 55%;
-    max-height: 55%;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .hotkey-name{
@@ -265,7 +265,7 @@ z-index: 1;
 }
 
 .right-text .text {
-    width: 85%;
+    width: 40%;
     margin: 10px;
     padding: 2px;
 	text-indent:50px;
