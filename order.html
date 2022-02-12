@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="description" content="Health Care Medical Html5 Template">
+		<meta name="keywords" content="Health Care, Medical, Html5 Template">
+		<!-- css стили -->
+		<link rel="stylesheet" href="style/reset.css" />
+		<link rel="stylesheet" href="style/style.css" />
+		<link rel="stylesheet" href="style/icon.css" />
+		<title> Оформление заказа </title>
+	</head>
+	<body>
+		<header>
+		Оформление заказа
+		</header>
+			<div class = 'parent'>
+				<div class = 'left-menu'>
+					<div class='fly-menu'>
+					<ul>
+						<li>
+							<a href = 'catalog.html'>
+								<div class='button icon catalog'>
+									<span class='button-text'>
+										Каталог
+									</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href = 'cart.html'>
+								<div class='button icon shopping'>
+									<span class='button-text'>
+										Корзина покупок
+									</span>
+								</div>
+							</a>
+						</li>	
+						<li>
+							<a href ='order.html'>
+								<div class='button icon gallery'>
+									<span class ='button-text'>
+										Оформление заказа
+									</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href ='about.html'>
+								<div class='button icon about'>
+									<span class ='button-text'>
+										О нас
+									</span>
+								</div>
+							</a>
+						</li>
+
+					</ul>	
+					</div>
+				</div>			
+				
+				<div class='right-text'>
+				<form id="order-form" class="form-horizontal" role="form">
+					<div class="form-group">
+						<label for="input-name" class="col-sm-2 control-label">Ваше имя *</label>
+					<div class="col-sm-6">
+						<input type="text" class="form-control" id="input-name" name="name" placeholder="Ваше имя">
+					</div>
+					</div>
+					<div class="form-group">
+						<label for="input-email" class="col-sm-2 control-label">Email *</label>
+						<div class="col-sm-6">
+							<input type="email" class="form-control" id="input-email" name="email" placeholder="Email">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="input-phone" class="col-sm-2 control-label">Телефон</label>
+						<div class="col-sm-6">
+							<input type="text" class="form-control" id="input-phone" name="phone" placeholder="Телефон">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label">Способ доставки</label>
+						<div class="col-sm-6">
+							<input type="hidden" name="delivery_type" id="delivery-type" value="" />
+							<input type="hidden" name="delivery_summa" id="delivery-summa" value="0" />
+							<input type="hidden" name="full_summa" id="full-summa" value="0" />
+							<div class="radio">
+								<label><input type="radio" name="delivery" class="js-delivery-type" data-type="Самовывоз" data-summa="0" checked>Самовывоз (бесплатно)</label>
+							</div>
+							<div class="radio">
+								<label><input type="radio" name="delivery" class="js-delivery-type" data-type="В пределах МКАД" data-summa="10">В пределах МКАД (10 рублей)</label>
+							</div>
+							<div class="radio">
+								<label><input type="radio" name="delivery" class="js-delivery-type" data-type="За пределами МКАД" data-summa="20">За пределами МКАД (20 рублей)</label>
+							</div>
+							<br />
+							<div id="alert-delivery" class="alert alert-info"></div>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="input-address" class="col-sm-2 control-label">Адрес доставки</label>
+							<div class="col-sm-6">
+							<textarea class="form-control" id="input-address" name="address" placeholder="Адрес доставки" rows='5' cols='50'></textarea>
+							</div>
+					</div>
+					<div class="form-group">
+						<label for="input-message" class="col-sm-2 control-label">Сообщение</label>
+						<div class="col-sm-6">
+							<textarea class="form-control" id="input-message" name="message" placeholder="Дополнительная информация" rows='10' cols='50'></textarea>
+						<br />
+						<div id="alert-validation" class="alert alert-danger hidden">
+							<button type="button" class="close js-close-alert">&times;</button>
+							<strong>Ошибка!</strong> Заполните обязательные поля, отмеченные *
+						</div>
+						<div id="alert-order-done" class="alert alert-success hidden">
+							<button type="button" class="close js-close-alert">&times;</button>
+							<strong>Спасибо за заказ!</strong> Скоро мы с Вами свяжемся
+						</div>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-offset-2 col-sm-6">
+							<button id="order-btn" type="submit" class="btn btn-primary">Отправить заказ</button>
+						</div>
+					</div>
+				</form>	
+								
+				</div>
+								
+			</div>
+			
+	<script id="order-message-template" type="text/template">
+        <% if (count !== 0) { %>
+            В Вашей корзине <%= count %> товара(ов) на общую сумму <%= summa %> рублей.
+            Заполните форму ниже и нажмите кнопку Отправить заказ.
+        <% } else { %>
+            Ваша корзина пуста. Перед отправкой заказа добавьте в корзину хотя бы один товар.
+        <% } %>
+    </script>		
+		
+	</body>	
+</html>

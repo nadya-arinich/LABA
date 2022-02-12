@@ -145,8 +145,8 @@ img{
 }
 
 img {
-    max-width: 55%;
-    max-height: 55%;
+    max-width: 100px;
+    max-height: 100px;
 }
 
 .hotkey-name{
@@ -265,7 +265,7 @@ z-index: 1;
 }
 
 .right-text .text {
-    width: 85%;
+    width: 100%;
     margin: 10px;
     padding: 2px;
 	text-indent:50px;
@@ -274,7 +274,25 @@ z-index: 1;
 	font-size: 18px;
 	text-align:justify;
  }
+ 
+input[type=text] {
+    border: none;
+	border-radius: 8px;
+	background-color: #c798cf;
+	color: white;
+	outline: none;
+}
 
+input[type=text] {
+    width: 100%;
+    padding: 5px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus {
+    border: 3px solid red;
+}
 
 
 

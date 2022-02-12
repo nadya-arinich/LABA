@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="description" content="Health Care Medical Html5 Template">
+		<meta name="keywords" content="Health Care, Medical, Html5 Template">
+		<!-- css стили -->
+		<link rel="stylesheet" href="style/reset.css" />
+		<link rel="stylesheet" href="style/style.css" />
+		<link rel="stylesheet" href="style/icon.css" />
+		<title> Каталог </title>
+	</head>
+	<body>
+		<header>
+		Каталог
+		</header>
+			<div class = 'parent'>
+				<div class = 'left-menu'>
+					<div class='fly-menu'>
+						<ul>
+							<li><a href="catalog.html">Каталог</a></li>
+							<li><a href="cart.html">Корзина<span id="total-cart-count" class="badge"></span></a></li>
+							<li><a href="order.html">Оформление заказа</a></li>
+							<li><a href="about.html">О нас</a></li>
+						</ul>	
+					</div>
+				</div>			
+				
+				<div class='right-text'>
+						
+					<div id='catalog.html'>
+					
+                        <table class='table'>
+                                <thead>
+                                    <tr>
+                                        <th>Фото</th>
+                                        <th>Название</th>
+                                        <th>Цена</th>
+                                        <th>Количество</th>
+										<th>Добвить в корзину</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="cart_product_img">
+                                            <a href="#"><img src="images/3.jpg" alt="Product"></a>
+                                        </td>
+                                        <td class="cart_product_desc">
+                                            <h5>Philodendron 'Malay Gold'</h5>
+                                        </td>
+                                        <td class="price">
+                                            <span>30</span>
+                                        </td>
+                                        <td class="qty">
+                                            <div class="qty-btn d-flex">
+                                                <div class="quantity">
+                                                    <input type="number" class="qty-text" id="qty" step="1" min="1" max="300" name="quantity" value="0">
+                                                </div>
+                                            </div>
+                                        </td>
+										<td class = "add to cart">
+											<input class="buttons" type="button" value="Купить">
+										</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="cart_product_img">
+                                            <a href="#"><img src="images/4.jpg" alt="Product"></a>
+                                        </td>
+                                        <td class="cart_product_desc">
+                                            <h5>Бонсай</h5>
+                                        </td>
+                                        <td class="price">
+                                            <span>10</span>
+                                        </td>
+                                        <td class="qty">
+                                            <div class="qty-btn d-flex">
+                                                <div class="quantity">
+                                                    <input type="number" class="qty-text" id="qty" step="1" min="1" max="300" name="quantity" value="0">
+                                                </div>
+                                            </div>
+                                        </td>
+										<td class = "add to cart">
+											<input class="buttons" type="button" value="Купить">
+										</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="cart_product_img">
+                                            <a href="#"><img src="images/7.jpg" alt="Product"></a>
+                                        </td>
+                                        <td class="cart_product_desc">
+                                            <h5>Композиция с лавандой</h5>
+                                        </td>
+                                        <td class="price">
+                                            <span>10</span>
+                                        </td>
+                                        <td class="qty">
+                                            <div class="qty-btn d-flex">
+                                                <div class="quantity">
+                                                    <input type="number" class="qty-text" id="qty" step="1" min="1" max="300" name="quantity" value="0">
+                                                </div>
+                                            </div>
+                                        </td>
+										<td class = "add to cart">
+											<input class="buttons" type="button" value="Купить">
+										</td>
+                                    </tr>
+									<tr>
+                                        <td class="cart_product_img">
+                                            <a href="#"><img src="images/6.jpg" alt="Product"></a>
+                                        </td>
+                                        <td class="cart_product_desc">
+                                            <h5>Zamioculcas</h5>
+                                        </td>
+                                        <td class="price">
+                                            <span>15</span>
+                                        </td>
+                                        <td class="qty">
+                                            <div class="qty-btn d-flex">
+                                                <div class="quantity">
+                                                    <input type="number" class="qty-text" id="qty" step="1" min="1" max="300" name="quantity" value="0">
+                                                </div>
+                                            </div>
+                                        </td>
+										<td class = "add to cart">
+											<input class="buttons" type="button" value="Купить">
+										</td>
+                                    </tr>
+									<tr>
+                                        <td class="cart_product_img">
+                                            <a href="#"><img src="images/11.jpg" alt="Product"></a>
+                                        </td>
+                                        <td class="cart_product_desc">
+                                            <h5>Anthurium 'Joli'</h5>
+                                        </td>
+                                        <td class="price">
+                                            <span>10</span>
+                                        </td>
+                                        <td class="qty">
+                                            <div class="qty-btn d-flex">
+                                                <div class="quantity">
+                                                    <input type="number" class="qty-text" id="qty" step="1" min="1" max="300" name="quantity" value="0">
+                                                </div>
+                                            </div>
+                                        </td>
+										<td class = "add to cart">
+											<input class="buttons" type="button" value="Купить">
+										</td>
+                                    </tr>
+									<tr>
+                                        <td class="cart_product_img">
+                                            <a href="#"><img src="images/13.jpg" alt="Product"></a>
+                                        </td>
+                                        <td class="cart_product_desc">
+                                            <h5>Olea europaea</h5>
+                                        </td>
+                                        <td class="price">
+                                            <span>12</span>
+                                        </td>
+                                        <td class="qty">
+                                            <div class="qty-btn d-flex">
+                                                <div class="quantity">
+                                                    <input type="number" class="qty-text" id="qty" step="1" min="1" max="300" name="quantity" value="0">
+                                                </div>
+                                            </div>
+                                        </td>
+										<td class = "add to cart">
+											<input class="buttons" type="button" value="Купить">
+										</td>
+                                    </tr>
+									<tr>
+                                        <td class="cart_product_img">
+                                            <a href="#"><img src="images/12.jpg" alt="Product"></a>
+                                        </td>
+                                        <td class="cart_product_desc">
+                                            <h5>Орхидея Пафиопедилюм микс</h5>
+                                        </td>
+                                        <td class="price">
+                                            <span>17</span>
+                                        </td>
+                                        <td class="qty">
+                                            <div class="qty-btn d-flex">
+                                                <div class="quantity">
+                                                    <input type="number" class="qty-text" id="qty" step="1" min="1" max="300" name="quantity" value="0">
+                                                </div>
+                                            </div>
+                                        </td>
+										<td class = "add to cart">
+											<input class="buttons" type="button" value="Купить">
+										</td>
+                                    </tr>
+									<tr>
+                                        <td class="cart_product_img">
+                                            <a href="#"><img src="images/15.jpg" alt="Product"></a>
+                                        </td>
+                                        <td class="cart_product_desc">
+                                            <h5>calathea Makoyana</h5>
+                                        </td>
+                                        <td class="price">
+                                            <span>14</span>
+                                        </td>
+                                        <td class="qty">
+                                            <div class="qty-btn d-flex">
+                                                <div class="quantity">
+                                                    <input type="number" class="qty-text" id="qty" step="1" min="1" max="300" name="quantity" value="0">
+                                                </div>
+                                            </div>
+                                        </td>
+										<td class = "add to cart">
+											<input class="buttons" type="button" value="Купить">
+										</td>
+                                    </tr>
+									<tr>
+                                        <td class="cart_product_img">
+                                            <a href="#"><img src="images/18.jpg" alt="Product"></a>
+                                        </td>
+                                        <td class="cart_product_desc">
+                                            <h5>Sansevieria</h5>
+                                        </td>
+                                        <td class="price">
+                                            <span>17</span>
+                                        </td>
+                                        <td class="qty">
+                                            <div class="qty-btn d-flex">
+                                                <div class="quantity">
+                                                    <input type="number" class="qty-text" id="qty" step="1" min="1" max="300" name="quantity" value="0">
+                                                </div>
+                                            </div>
+                                        </td>
+										<td class = "add to cart">
+											<input class="buttons" type="button" value="Купить">
+										</td>
+                                    </tr>
+									<tr>
+                                        <td class="cart_product_img">
+                                            <a href="#"><img src="images/5.jpg" alt="Product"></a>
+                                        </td>
+                                        <td class="cart_product_desc">
+                                            <h5>Nepenthes alata</h5>
+                                        </td>
+                                        <td class="price">
+                                            <span>17</span>
+                                        </td>
+                                        <td class="qty">
+                                            <div class="qty-btn d-flex">
+                                                <div class="quantity">
+                                                    <input type="number" class="qty-text" id="qty" step="1" min="1" max="300" name="quantity" value="0">
+                                                </div>
+                                            </div>
+                                        </td>
+										<td class = "add to cart">
+											<input class="buttons" type="button" value="Купить">
+										</td>
+                                    </tr>
+									<tr>
+                                        <td class="cart_product_img">
+                                            <a href="#"><img src="images/17.jpg" alt="Product"></a>
+                                        </td>
+                                        <td class="cart_product_desc">
+                                            <h5>Ficus mix</h5>
+                                        </td>
+                                        <td class="price">
+                                            <span>17</span>
+                                        </td>
+                                        <td class="qty">
+                                            <div class="qty-btn d-flex">
+                                                <div class="quantity">
+                                                    <input type="number" class="qty-text" id="qty" step="1" min="1" max="300" name="quantity" value="0">
+                                                </div>
+                                            </div>
+                                        </td>
+										<td class = "add to cart">
+											<input class="buttons" type="button" value="Купить">
+										</td>
+                                    </tr>
+                                </tbody>
+                        </table>
+					
+							
+					</div>
+				</div>
+								
+			</div>
+	</body>	
+</html>
