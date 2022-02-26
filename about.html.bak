@@ -59,9 +59,8 @@
 				</div>			
 				
 				<div class='right-text'>
-					<div id='about.html'>
+					
 						<div class = 'row onaspage'>
-						
 							<div class = 'text'>
 								<p>Цветок - это совершенно новый подход к появлению цветов в Вашем доме:</p>
 									<ul>
@@ -85,15 +84,16 @@
 							<div class = 'images-contener'>
 								<img src="images/about/onas1.jpg"/>
 							</div>
-							<div class = 'images-contener'>
-								<img src="images/about/onas5.jpg"/>
-							</div>
 							<div class = 'text'>
 								<p>Каждый привык получать экспертную консультацию в мебельном салоне или магазине электроники. 
 								В салоне "ЦветОк" мы используем такой же подход при продаже растений. 
 								Здесь Вам не придется выбирать комнатное растение наугад.
 								</p>
 							</div>	
+							<div class = 'images-contener'>
+								<img src="images/about/onas5.jpg"/>
+							</div>
+							
 							<div class = 'text'>
 								<p>Биологи салона "ЦветОк" дадут исчерпывающую консультацию по любому растению, представленному в салоне и помогут выбрать именно то,
 								что подойдет под условия вашего жилья и ожидания. 
@@ -105,7 +105,7 @@
 							</div>
 						</div>
 
-					</div>		
+							
 				</div>
 								
 			</div>

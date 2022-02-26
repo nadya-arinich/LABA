@@ -100,7 +100,7 @@
 					<div class="form-group">
 						<label for="input-address" class="col-sm-2 control-label">Адрес доставки</label>
 							<div class="col-sm-6">
-							<textarea class="form-control" id="input-address" name="address" placeholder="Адрес доставки" rows='1' cols='50'></textarea>
+							<textarea class="form-control" id="input-address" name="address" placeholder="Адрес доставки" rows='5' cols='50'></textarea>
 							</div>
 					</div>
 					<div class="form-group">

@@ -16,18 +16,51 @@
 			<div class = 'parent'>
 				<div class = 'left-menu'>
 					<div class='fly-menu'>
-						<ul>
-							<li><a href="catalog.html">Каталог</a></li>
-							<li><a href="cart.html">Корзина<span id="total-cart-count" class="badge"></span></a></li>
-							<li><a href="order.html">Оформление заказа</a></li>
-							<li><a href="about.html">О нас</a></li>
-						</ul>	
+					<ul>
+						<li>
+							<a href = 'catalog.html'>
+								<div class='button icon catalog'>
+									<span class='button-text'>
+										Каталог
+									</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href = 'cart.html'>
+								<div class='button icon shopping'>
+									<span class='button-text'>
+										Корзина покупок
+									</span>
+								</div>
+							</a>
+						</li>	
+						<li>
+							<a href ='order.html'>
+								<div class='button icon gallery'>
+									<span class ='button-text'>
+										Оформление заказа
+									</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href ='about.html'>
+								<div class='button icon about'>
+									<span class ='button-text'>
+										О нас
+									</span>
+								</div>
+							</a>
+						</li>
+
+					</ul>		
 					</div>
 				</div>			
 				
 				<div class='right-text'>
 						
-					<div id='catalog.html'>
+					<div class='table_product'>
 					
                         <table class='table'>
                                 <thead>
@@ -58,7 +91,7 @@
                                             </div>
                                         </td>
 										<td class = "add to cart">
-											<input class="buttons" type="button" value="Купить">
+											<input class="buttons" type="button" value="Добвить в корзину">
 										</td>
                                     </tr>
                                     <tr>
@@ -79,7 +112,7 @@
                                             </div>
                                         </td>
 										<td class = "add to cart">
-											<input class="buttons" type="button" value="Купить">
+											<input class="buttons" type="button" value="Добвить в корзину">
 										</td>
                                     </tr>
                                     <tr>
@@ -100,7 +133,7 @@
                                             </div>
                                         </td>
 										<td class = "add to cart">
-											<input class="buttons" type="button" value="Купить">
+											<input class="buttons" type="button" value="Добвить в корзину">
 										</td>
                                     </tr>
 									<tr>
@@ -121,7 +154,7 @@
                                             </div>
                                         </td>
 										<td class = "add to cart">
-											<input class="buttons" type="button" value="Купить">
+											<input class="buttons" type="button" value="Добвить в корзину">
 										</td>
                                     </tr>
 									<tr>
@@ -142,7 +175,7 @@
                                             </div>
                                         </td>
 										<td class = "add to cart">
-											<input class="buttons" type="button" value="Купить">
+											<input class="buttons" type="button" value="Добвить в корзину">
 										</td>
                                     </tr>
 									<tr>
@@ -163,7 +196,7 @@
                                             </div>
                                         </td>
 										<td class = "add to cart">
-											<input class="buttons" type="button" value="Купить">
+											<input class="buttons" type="button" value="Добвить в корзину">
 										</td>
                                     </tr>
 									<tr>
@@ -184,7 +217,7 @@
                                             </div>
                                         </td>
 										<td class = "add to cart">
-											<input class="buttons" type="button" value="Купить">
+											<input class="buttons" type="button" value="Добвить в корзину">
 										</td>
                                     </tr>
 									<tr>
@@ -205,7 +238,7 @@
                                             </div>
                                         </td>
 										<td class = "add to cart">
-											<input class="buttons" type="button" value="Купить">
+											<input class="buttons" type="button" value="Добвить в корзину">
 										</td>
                                     </tr>
 									<tr>
@@ -226,7 +259,7 @@
                                             </div>
                                         </td>
 										<td class = "add to cart">
-											<input class="buttons" type="button" value="Купить">
+											<input class="buttons" type="button" value="Добвить в корзину">
 										</td>
                                     </tr>
 									<tr>
@@ -247,7 +280,7 @@
                                             </div>
                                         </td>
 										<td class = "add to cart">
-											<input class="buttons" type="button" value="Купить">
+											<input class="buttons" type="button" value="Добвить в корзину">
 										</td>
                                     </tr>
 									<tr>
@@ -268,7 +301,7 @@
                                             </div>
                                         </td>
 										<td class = "add to cart">
-											<input class="buttons" type="button" value="Купить">
+											<input class="buttons" type="button" value="Добвить в корзину">
 										</td>
                                     </tr>
                                 </tbody>

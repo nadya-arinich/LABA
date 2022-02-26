@@ -28,14 +28,6 @@ div {
     min-height: calc(100vh - 112px);
  }
 
-.green {
-	color: red;
-}
-
-img{
-	max-width: 100px;
-	max-height: 100px;
-}
 
 .left-menu.button{
 	background: #81f6b5;
@@ -60,10 +52,15 @@ img{
 	flex:1;
 }
 
+.fly-menu{
+	position: fixed;
+    width: 200px;
+}
+
 
 .button:hover{
 	background: #ccc;
-	border: 2px solid green;
+	border: 2px solid #5d1968;
 }
 
 .button {
@@ -111,30 +108,16 @@ img{
   max-height: 200px;
 }
 
-.images-contener {
+.images-contener img {
 	width:80%;
     display: inline-block;
     justify-content: center;
     align-items: center; 
-    margin: 2px;
+    margin: 25px;
     margin-bottom: 0;
- 
+   
 }
 
-/*.image-contener{
-	display: flex;
-	flex-wrap: wrap;
-	flex: 1;
-	justify-content: center;
-	float: right;
-}
-
-.image-container{
-	display: flex;
-	flex-wrap: wrap;
-	flex: 1;
-	justify-content: center;
-}*/
 
 .images.images-contener:first-child {
         margin-left: 0;
@@ -144,7 +127,7 @@ img{
         margin-left: 0;
 }
 
-img {
+.product-img img {
     max-width: 100px;
     max-height: 100px;
 }
@@ -265,7 +248,7 @@ z-index: 1;
 }
 
 .right-text .text {
-    width: 100%;
+    width: 95%;
     margin: 10px;
     padding: 2px;
 	text-indent:50px;
@@ -275,6 +258,11 @@ z-index: 1;
 	text-align:justify;
  }
  
+.form-group {
+	margin-left: 150px;
+}
+ 
+  
 input[type=text] {
     border: none;
 	border-radius: 8px;
@@ -291,7 +279,7 @@ input[type=text] {
 }
 
 input[type=text]:focus {
-    border: 3px solid red;
+    border: 3px solid #5d1968;
 }
 
 input[type=email] {
@@ -310,7 +298,7 @@ input[type=email] {
 }
 
 input[type=email]:focus {
-    border: 3px solid red;
+    border: 3px solid #5d1968;
 }
 
 
