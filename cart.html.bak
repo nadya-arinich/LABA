@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="utf-8">
 		<meta name="description" content="Health Care Medical Html5 Template">
 		<meta name="keywords" content="Health Care, Medical, Html5 Template">
 		<!-- css стили -->
@@ -73,11 +74,11 @@
 							</thead>
 						</table>
 						<tbody id="cart">
-							<tr><td colspan="6"><img src="images/loading.gif" alt="" /></td></tr>
+							
 						</tbody>
 					</div>
 					<div> Итого: <span id="summa"></span>   руб.</div>
-					<a class="btn btn-info" href="index_p_4.html">Оформить заказ</a>
+					<a class="btn btn-info" href="order.html">Оформить заказ</a>
 				</div>
 			</div>
  		

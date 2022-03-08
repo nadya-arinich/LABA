@@ -29,10 +29,9 @@ div {
  }
 
 
-.left-menu.button{
+.left-menu. button{
 	background: #81f6b5;
     border: 2px #e41286 solid;
-    border-radius: 10px;
     padding: 2px 7px;
     margin: 3px;
     display: block;
@@ -65,7 +64,6 @@ div {
 
 .button {
     border: 2px #b25ec0 solid;
-    border-radius: 10px;
     padding: 2px 7px;
     margin: 3px;
     display: block;
@@ -75,18 +73,6 @@ div {
     flex: 1;
     display: flex;
 }
-
-
-.button:first-child {
-        border-bottom-left-radius: 10px;
-        margin-left: 0;
- }
-
-.button:last-child {
-        border-bottom-right-radius: 10px;
-        margin-right: 0;
- }
-
 
 .name {
     display: flex;
@@ -118,18 +104,9 @@ div {
    
 }
 
-
-.images.images-contener:first-child {
-        margin-left: 0;
-}
-
-.images.images-contener:last-child {
-        margin-left: 0;
-}
-
 .product-img img {
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 .hotkey-name{
@@ -145,64 +122,6 @@ div {
 
 .fly-menu a{
 	display: block;
-}
-
-.table {
-	width: 100%;
-	margin-left: 100px;
-	border: none;
-	margin-bottom: 20px;
-	border-collapse: separate;
-}
-
-.table thead th {
-	font-weight: bold;
-	text-align: left;
-	border: none;
-	padding: 10px 15px;
-	background: #ecc2f3;
-	font-size: 14px;
-	border-top: 1px solid #b25ec0;
-}
-
-.table tr th:first-child, .table tr td:first-child {
-	border-left: 1px solid #b25ec0;
-}
-
-.table tr th:last-child, .table tr td:last-child {
-	border-right: 1px solid #b25ec0;
-}
-
-.table thead tr th:first-child {
-	border-radius: 20px 0 0 0;
-}
-
-.table thead tr th:last-child {
-	border-radius: 0 20px 0 0;
-}
-
-.table tbody td {
-	text-align: left;
-	border: 1px solid #b25ec0;
-	padding: 10px 15px;
-	font-size: 14px;
-	vertical-align: top;
-}
-
-.table tbody tr{
-	background: #F8F8F8;
-}
-
-.table tbody tr:last-child td{
-	border-bottom: 1px solid #b25ec0;
-}
-
-.table tbody tr:last-child td:first-child {
-	border-radius: 0 0 0 20px;
-}
-
-.table tbody tr:last-child td:last-child {
-	border-radius: 0 0 20px 0;
 }
 
 .input {
@@ -223,20 +142,19 @@ position: relative;
 z-index: 1;
 }
 
-.buttons {
+.add_item{
     border: 2px #b25ec0 solid;
-    border-radius: 10px;
     padding: 2px 7px;
     margin: 3px;
     display: block;
 }
 
-.buttons {
+.add_item {
     display: flex;
 }
 
-.buttons:hover{
-	background: green;
+.add_item:hover{
+	background: purple;
 	border: 1px #b25ec0 solid ;
 }
 
@@ -302,6 +220,52 @@ input[type=email]:focus {
 }
 
 
+.item {
+  padding: 50px 60px;
+  height: 130px;
+  display: flex;
+  align-items: center;
+ }
+ 
 
+.item_title {
+  margin-right: 60px;
+  width: 200px;
+  align-items: center;
+}
+ 
+.quantity {
+  margin-right: 60px;
+  align-items: center;
+}
+
+.quantity input {
+  -webkit-appearance: none;
+  border: none;
+  text-align: center;
+  width: 32px;
+  font-size: 18px;
+  color: #43484D;
+  font-weight: 300;
+}
+ 
+button[class*=btn] {
+  width: 30px;
+  height: 30px;
+  background-color: #E1E8EE;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+ 
+.total-price {
+  width: 83px;
+  text-align: center;
+  font-size: 18px;
+  color: 080808;
+  font-weight: 300;
+  align-items: center;
+}
 
 

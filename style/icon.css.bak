@@ -110,3 +110,10 @@
 	background-image: url(../images/icon/baseline_pending_black_24dp.png);
 }
 
+.plus-btn: {
+	background-image: url(../images/icon/plus.png);
+}
+
+.minus-btn: {
+	background-image: url(../images/icon/minus.png);
+}

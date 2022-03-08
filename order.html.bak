@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="utf-8">
 		<meta name="description" content="Health Care Medical Html5 Template">
 		<meta name="keywords" content="Health Care, Medical, Html5 Template">
 		<!-- css стили -->
@@ -36,10 +37,10 @@
 							</a>
 						</li>	
 						<li>
-							<a href ='order.html'>
+							<a href ='doctavka.html'>
 								<div class='button icon gallery'>
 									<span class ='button-text'>
-										Оформление заказа
+										Доставка
 									</span>
 								</div>
 							</a>
@@ -88,10 +89,10 @@
 								<label><input type="radio" name="delivery" class="js-delivery-type" data-type="Самовывоз" data-summa="0" checked>Самовывоз (бесплатно)</label>
 							</div>
 							<div class="radio">
-								<label><input type="radio" name="delivery" class="js-delivery-type" data-type="В пределах МКАД" data-summa="10">В пределах МКАД (10 рублей)</label>
+								<label><input type="radio" name="delivery" class="js-delivery-type" data-type="В пределах МКАД" data-summa="10">В пределах МКАД-1(5 рублей)</label>
 							</div>
 							<div class="radio">
-								<label><input type="radio" name="delivery" class="js-delivery-type" data-type="За пределами МКАД" data-summa="20">За пределами МКАД (20 рублей)</label>
+								<label><input type="radio" name="delivery" class="js-delivery-type" data-type="За пределами МКАД" data-summa="20">За пределами МКАД-1 (20 рублей)</label>
 							</div>
 							<br />
 							<div id="alert-delivery" class="alert alert-info"></div>
@@ -120,7 +121,7 @@
 					</div>
 					<div class="form-group">
 						<div class="col-sm-offset-2 col-sm-6">
-							<button id="order-btn" type="submit" class="btn btn-primary">Отправить заказ</button>
+							<button id="order-btn" type="submit" class="button">Отправить заказ</button>
 						</div>
 					</div>
 				</form>	
@@ -129,14 +130,6 @@
 								
 			</div>
 			
-	<script id="order-message-template" type="text/template">
-        <% if (count !== 0) { %>
-            В Вашей корзине <%= count %> товара(ов) на общую сумму <%= summa %> рублей.
-            Заполните форму ниже и нажмите кнопку Отправить заказ.
-        <% } else { %>
-            Ваша корзина пуста. Перед отправкой заказа добавьте в корзину хотя бы один товар.
-        <% } %>
-    </script>		
 		
 	</body>	
 </html>

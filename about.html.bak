@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="utf-8">
 		<meta name="description" content="Health Care Medical Html5 Template">
 		<meta name="keywords" content="Health Care, Medical, Html5 Template">
 		<!-- css стили -->
 		<link rel="stylesheet" href="style/reset.css" />
-		<link rel="stylesheet" href="style/style_p5.css" />
+		<link rel="stylesheet" href="style/style.css" />
 		<link rel="stylesheet" href="style/icon.css" />
 		<title> О нас </title>
 	</head>
