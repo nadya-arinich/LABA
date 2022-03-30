@@ -71,34 +71,24 @@
 								<img src="images/3.jpg" alt="" />
 							</div>
  
-							<a href="#cart_product_desc"  id="myBtn">
+							<a href="#cart_product_desc"  data-modal="myBtn_1">
 								<h5 class="item_title">Philodendron 'Malay Gold'</h5>
 							</a>
- 
-							<div class="quantity">
-								<button class="minus-btn" type="button" name="button">
-									<img src="images/icon/minus.png" alt="" />
-								</button>
-								<input type="text" name="name" value="0">
-								<button class="plus-btn" type="button" name="button">
-									<img src="images/icon/plus.png" alt="" />
-								</button>
-							</div>
  
 							<div class="total-price">20</div>
 			
 							<div class = "add to cart">
-								<input class="add_item" type="button" data-id="1" value="Добвить в корзину">
+								<input class="add_item" type="button" id="1" value="Добвить в корзину">
 							</div>
 						</div>
                         
 					<!-- Модальное окно -->
 					
-						<div id="myModal" class="modal">
+						<div id="myModal_1" class="modal">
 
 							<!-- Модальное содержание -->
-							<div class="modal-content">
-							<span class="close">&times;</span>
+							<div class="modal-content" >
+							<span class="close" data-modal="modal_1">x</span>
 								<p>Красивый ярко-желтый гибрид. Это редкое экзотичное растение с необычной, нарядной и крупной листвой.</p> 
 								<p>Листовые пластины широкие, продолговатой формы, глянцевые, расположены на длинных черешках, с ярко-золотисто-желтой окраской.</p>
 							</div>
@@ -112,19 +102,9 @@
 								<img src="images/4.jpg" alt="" />
 							</div>
  
-							<a href="#cart_product_desc" id="myBtn">
+							<a href="#cart_product_desc" data-modal="myBtn_2">
 								<h5 class="item_title">Бонсай</h5>
 							</a>
- 
-							<div class="quantity">
-								<button class="minus-btn" type="button" name="button">
-									<img src="images/icon/minus.png" alt="" />
-								</button>
-								<input type="text" name="name" value="0">
-								<button class="plus-btn" type="button" name="button">
-									<img src="images/icon/plus.png" alt="" />
-								</button>
-							</div>
  
 							<div class="total-price">20</div>
 			
@@ -135,12 +115,12 @@
 						
 						<!-- Модальное окно -->
 					
-						<div id="myModal" class="modal">
+						<div id="myModal_2" class="modal">
 
 							<!-- Модальное содержание -->
 							<div class="modal-content">
-							<span class="close">&times;</span>
-								<p>Красивый ярко-желтый гибрид. Это редкое экзотичное растение с необычной, нарядной и крупной листвой.</p> 
+							<span class="close" data-modal="modal_2">x</span>
+								<p>vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv.</p> 
 								<p>Листовые пластины широкие, продолговатой формы, глянцевые, расположены на длинных черешках, с ярко-золотисто-желтой окраской.</p>
 							</div>
 						</div>
@@ -153,19 +133,9 @@
 								<img src="images/7.jpg" alt="" />
 							</div>
  
-							<div class="cart_product_desc">
+							<a href="#cart_product_desc" data-modal="myBtn_3">
 								<h5 class="item_title">Композиция с лавандой</h5>
-							</div>
- 
-							<div class="quantity">
-								<button class="minus-btn" type="button" name="button">
-									<img src="images/icon/minus.png" alt="" />
-								</button>
-								<input type="text" name="name" value="0">
-								<button class="plus-btn" type="button" name="button">
-									<img src="images/icon/plus.png" alt="" />
-								</button>
-							</div>
+							</a>
  
 							<div class="total-price">20</div>
 			
@@ -176,11 +146,11 @@
 						
 						<!-- Модальное окно -->
 					
-						<div id="myModal" class="modal">
+						<div id="myModal_3" class="modal">
 
 							<!-- Модальное содержание -->
 							<div class="modal-content">
-							<span class="close">&times;</span>
+							<span class="close" data-modal="modal_3">x</span>
 								<p>Некоторый текст в модальном..</p>
 							</div>
 						</div>
@@ -192,9 +162,9 @@
 								<img src="images/6.jpg" alt="" />
 							</div>
  
-							<div class="cart_product_desc">
+							<a href="#cart_product_desc" data-modal="myBtn_3">
 								<h5 class="item_title">Zamioculcas</h5>
-							</div>
+							</a>
  
 							<div class="quantity">
 								<button class="minus-btn" type="button" name="button">
@@ -231,9 +201,9 @@
 								<img src="images/11.jpg" alt="" />
 							</div>
  
-							<div class="cart_product_desc">
+							<a href="#cart_product_desc" id="myBtn_5">
 								<h5 class="item_title">Anthurium</h5>
-							</div>
+							</a>
  
 							<div class="quantity">
 								<button class="minus-btn" type="button" name="button">
@@ -270,9 +240,9 @@
 								<img src="images/13.jpg" alt="" />
 							</div>
  
-							<div class="cart_product_desc">
+							<a href="#cart_product_desc" id="myBtn_6">
 								<h5 class="item_title">Olea europaea</h5>
-							</div>
+							</a>
  
 							<div class="quantity">
 								<button class="minus-btn" type="button" name="button">
@@ -291,6 +261,16 @@
 							</div>
 						</div>
 						
+						<div id="myModal" class="modal">
+
+							<!-- Модальное содержание -->
+							<div class="modal-content">
+							<span class="close">&times;</span>
+								<p>Некоторый текст в модальном..</p>
+							</div>
+						</div>
+						
+						
 						<!-- Товар #7 -->
 						<div class="item">
 			 
@@ -298,9 +278,9 @@
 								<img src="images/12.jpg" alt="" />
 							</div>
  
-							<div class="cart_product_desc">
+							<a href="#cart_product_desc" id="myBtn_7">
 								<h5 class="item_title">Орхидея Пафиопедилюм микс</h5>
-							</div>
+							</a>
  
 							<div class="quantity">
 								<button class="minus-btn" type="button" name="button">
@@ -319,6 +299,16 @@
 							</div>
 						</div>
 						
+						<div id="myModal" class="modal">
+
+							<!-- Модальное содержание -->
+							<div class="modal-content">
+							<span class="close">&times;</span>
+								<p>Некоторый текст в модальном..</p>
+							</div>
+						</div>
+						
+						
 						<!-- Товар #8 -->
 						<div class="item">
 			 
@@ -326,9 +316,9 @@
 								<img src="images/15.jpg" alt="" />
 							</div>
  
-							<div class="cart_product_desc">
+							<a href="#cart_product_desc" id="myBtn_8">
 								<h5 class="item_title">calathea Makoyana</h5>
-							</div>
+							</a>
  
 							<div class="quantity">
 								<button class="minus-btn" type="button" name="button">
@@ -347,6 +337,17 @@
 							</div>
 						</div>
 						
+						<div id="myModal" class="modal">
+
+							<!-- Модальное содержание -->
+							<div class="modal-content">
+							<span class="close">&times;</span>
+								<p>Некоторый текст в модальном..</p>
+							</div>
+						</div>
+						
+						
+						
 						<!-- Товар #9 -->
 						<div class="item">
 			 
@@ -354,9 +355,9 @@
 								<img src="images/18.jpg" alt="" />
 							</div>
  
-							<div class="cart_product_desc">
+							<a href="#cart_product_desc" id="myBtn_9">
 								<h5 class="item_title">Sansevieria</h5>
-							</div>
+							</a>
  
 							<div class="quantity">
 								<button class="minus-btn" type="button" name="button">
@@ -375,6 +376,17 @@
 							</div>
 						</div>
 						
+						<div id="myModal" class="modal">
+
+							<!-- Модальное содержание -->
+							<div class="modal-content">
+							<span class="close">&times;</span>
+								<p>Некоторый текст в модальном..</p>
+							</div>
+						</div>
+						
+						
+						
 						<!-- Товар #10 -->
 						<div class="item">
 			 
@@ -382,9 +394,9 @@
 								<img src="images/5.jpg" alt="" />
 							</div>
  
-							<div class="cart_product_desc">
+							<a href="#cart_product_desc" id="myBtn_10">
 								<h5 class="item_title">Nepenthes alata</h5>
-							</div>
+							</a>
  
 							<div class="quantity">
 								<button class="minus-btn" type="button" name="button">
@@ -403,6 +415,16 @@
 							</div>
 						</div>
 						
+						<div id="myModal" class="modal">
+
+							<!-- Модальное содержание -->
+							<div class="modal-content">
+							<span class="close">&times;</span>
+								<p>Некоторый текст в модальном..</p>
+							</div>
+						</div>
+						
+						
 						<!-- Товар #11 -->
 						<div class="item">
 			 
@@ -410,9 +432,9 @@
 								<img src="images/17.jpg" alt="" />
 							</div>
  
-							<div class="cart_product_desc">
+							<a href="#cart_product_desc" id="myBtn_11">
 								<h5 class="item_title">Ficus mix</h5>
-							</div>
+							</a>
  
 							<div class="quantity">
 								<button class="minus-btn" type="button" name="button">
@@ -428,6 +450,15 @@
 			
 							<div class = "add to cart">
 								<input class="add_item" type="button" data-id="11" value="Добвить в корзину">
+							</div>
+						</div>
+						
+						<div id="myModal" class="modal">
+
+							<!-- Модальное содержание -->
+							<div class="modal-content">
+							<span class="close">&times;</span>
+								<p>Некоторый текст в модальном..</p>
 							</div>
 						</div>
 						       
