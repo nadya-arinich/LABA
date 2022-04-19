@@ -8,6 +8,7 @@
 		<link rel="stylesheet" href="style/reset.css" />
 		<link rel="stylesheet" href="style/style.css" />
 		<link rel="stylesheet" href="style/icon.css" />
+		<span id="doc_time"></span>
 		<title> Корзина покупок </title>
 	</head>
 	<body>
@@ -37,7 +38,7 @@
 							</a>
 						</li>	
 						<li>
-							<a href ='doctavka.html'>
+							<a href ='dostavka.html'>
 								<div class='button icon gallery'>
 									<span class ='button-text'>
 										Доставка
@@ -60,27 +61,21 @@
 				</div>			
 				
 				<div class='right-text'>
-					<div class="table-responsive">
-						<table class="table table-hover table-bordered">
-							<thead>
-								<tr>
-									<th>Фото</th>
-									<th>Название</th>
-									<th>Цена</th>
-									<th>Количество</th>
-									<th>Сумма</th>
-									<th></th>
-								</tr>
-							</thead>
-						</table>
-						<tbody id="cart">
-							
-						</tbody>
+					<div id="cart_content">
+					
+					
 					</div>
-					<div> Итого: <span id="summa"></span>   руб.</div>
-					<a class="btn btn-info" href="order.html">Оформить заказ</a>
+						
+				
+					
 				</div>
 			</div>
- 		
+ 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="data.js"></script>
+		<script type="text/javascript">
+        clock();
+        </script>
+	 
+	
 	</body>	
 </html>

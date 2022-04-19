@@ -8,7 +8,8 @@
 		<link rel="stylesheet" href="style/reset.css" />
 		<link rel="stylesheet" href="style/style.css" />
 		<link rel="stylesheet" href="style/icon.css" />
-		
+		<span id="doc_time"></span>
+				
 		<title> Каталог </title>
 	</head>
 	<body>
@@ -17,6 +18,7 @@
 		</header>
 			<div class = 'parent'>
 				<div class = 'left-menu'>
+				
 					<div class='fly-menu'>
 					<ul>
 						<li>
@@ -58,199 +60,107 @@
 
 					</ul>		
 					</div>
-				</div>			
+				</div>
+								
 				
 				<div class='right-text'>
-						
-					<div class="col-lg-4 col-md-6 mb-4">
-						<div class="card h-100">   
+					
+					<div class="item-contener">
+						<div class="item">   
 							<img src="images/3.jpg" class="card-img-top" alt=" ">       
-							<div class="card-body" >
-								<a class="popup-open" href="#" id='btn'>Philodendron 'Malay Gold'</a>
-							</div>
-							<div class="card-footer">
-								<div class="row">
-									<div class="item_price">
-										<strong>Цена</strong>: 24,50 руб.
-									</div>
-									<div class="add_cart">
-										<a href="#cart.html" class="btn_cart" data-nametitle="Philodendron 'Malay Gold'" data-imgtovara="images/3.jpg" data-pricetovar="24,50 р." >В корзину</a>
-									</div>
-								</div>
-							</div>
+							<button class="btn" data-path="1-popup" >Philodendron 'Malay Gold'</button>
+							<div class="price">Цена: 15 руб.</div>
+							<button class="add-to-car" data-id="i1"> В корзину</button>
 						</div>
 					</div>
 					
-					<!-- Модальное окно -->
-					
-						<div class="popup-fade" id='popup'>
-							<div class="popup">
-								<a class="popup-close" href="#">x</a>
-								<p>Красивый ярко-желтый гибрид. Это редкое экзотичное растение с необычной, нарядной и крупной листвой.</p>
-								<p>Листовые пластины широкие, продолговатой формы, глянцевые, расположены на длинных черешках, с ярко-золотисто-желтой окраской.</p>
-							</div>		
-						</div>
-						
-						
-												
-					<div class="col-lg-4 col-md-6 mb-4">
-						<div class="card h-100">   
+					<div class="item-contener">
+						<div class="item" id="i2">   
 							<img src="images/4.jpg" class="card-img-top" alt=" ">       
-							<div class="card-body">
-								<a class="popup-open" href="#">Бонсай</a>
-							</div>
-							<div class="card-footer">
-								<div class="row">
-									<div class="col-6">
-										<strong>Цена</strong>: 24,50 руб.
-									</div>
-									<div class="add_cart">
-										<a href="cart.html" class="btn_cart" data-nametitle="Бонсай" data-imgtovara="images/4.jpg" >В корзину</a>
-									</div>
-								</div>
-							</div>
+							<button class="btn" data-path="2-popup">Бонсай</button>
+							<div class="price">Цена: 25 руб.</div>
+							<button class="add-to-car"> В корзину</button>
 						</div>
 					</div>
 					
-					<!-- Модальное окно -->
-						
-						<div class="popup-fade">
-							<div class="popup">
-								<a class="popup-close" href="#">x</a>
-								<p>Бонсай — древнее искусство, которое зародилось в Японии и постепенно распространилось по всему миру.</p>
-								<p>Его суть — выращивание миниатюрных деревьев, которые используются для украшения домов в качестве живой и уникальной части интерьера.</p>
-							</div>		
-						</div>
-						
-											
-					<div class="col-lg-4 col-md-6 mb-4">
-						<div class="card h-100">   
+					<div class="item-contener">
+						<div class="item" id="i3">   
 							<img src="images/7.jpg" class="card-img-top" alt=" ">       
-							<div class="card-body">
-								<a class="popup-open" href="#">Композиция с лавандой</a>
-							</div>
-							<div class="card-footer">
-								<div class="row">
-									<div class="col-6">
-										<strong>Цена</strong>: 24,50 руб.
-									</div>
-									<div class="add_cart">
-										<a href="cart.html" class="btn_cart" data-nametitle="Композиция с лавандой" data-imgtovara="images/7.jpg" data-pricetovar="24,50 р." >В корзину</a>
-									</div>
-								</div>
-							</div>
+							<button class="btn" data-path="3-popup">Композиция с лавандой</button>
+							<div class="price">Цена: 20 руб.</div>
+							<button class="add-to-car"> В корзину</button>
 						</div>
 					</div>
 					
-					<!-- Модальное окно -->
-						
-						<div class="popup-fade">
-							<div class="popup">
-								<a class="popup-close" href="#">x</a>
-								<p>Лава́нда — род растений семейства яснотковых. Включает примерно 47 видов.</p>
-								<p>Произрастает на Канарских островах, в северной и восточной Африке, в Австралии, на юге Европы, в Аравии и в Индии.</p>
-								<p>Культурные формы выращиваются в садах во всём мире.</p>
-							</div>		
-						</div>
-						
-											
-					<div class="col-lg-4 col-md-6 mb-4">
-						<div class="card h-100">   
+					<div class="item-contener">
+						<div class="item" id="i4">   
 							<img src="images/6.jpg" class="card-img-top" alt=" ">       
-							<div class="card-body">
-								<a class="popup-open" href="#">Zamioculcas</a>
-							</div>
-							<div class="card-footer">
-								<div class="row">
-									<div class="col-6">
-										<strong>Цена</strong>: 24,50 руб.
-									</div>
-									<div class="add_cart">
-										<a href="cart.html" class="btn_cart" data-nametitle="Zamioculcas" data-imgtovara="images/6.jpg" data-pricetovar="24,50 р." >В корзину</a>
-									</div>
-								</div>
-							</div>
+							<button class="btn" data-path="4-popup">Zamioculcas</button>
+							<div class="price">Цена: 20 руб.</div>
+							<button class="add-to-car"> В корзину</button>
 						</div>
-					</div>
+					</div>					
 					
-					<!-- Модальное окно -->
-						
-						<div class="popup-fade">
-							<div class="popup">
-								<a class="popup-close" href="#">x</a>
-								<p>Замиоку́лькас — монотипный род растений семейства Ароидные, представленный единственным видом замиокулькас замиели́стный, происходящим из тропической Африки.
-								<p>Название получил из-за схожести листьев с листьями замии.</p>
-								<p>Синонимы: Caladium zamiaefolium Lodd. et al. — Каладиум замиелистный</p>
-							</div>		
-						</div>
-						
-											
-					<div class="col-lg-4 col-md-6 mb-4">
-						<div class="card h-100">   
+					<div class="item-contener">
+						<div class="item" id="i5">   
 							<img src="images/11.jpg" class="card-img-top" alt=" ">       
-							<div class="card-body">
-								<a class="popup-open" href="#">Anthurium</a>
-							</div>
-							<div class="card-footer">
-								<div class="row">
-									<div class="col-6">
-										<strong>Цена</strong>: 24,50 руб.
-									</div>
-									<div class="add_cart">
-										<a href="cart.html" class="btn_cart" data-nametitle="Anthurium" data-imgtovara="images/11.jpg" data-pricetovar="24,50 р.">В корзину</a>
-									</div>
-								</div>
-							</div>
+							<button class="btn" data-path="5-popup">Anthurium</button>
+							<div class="price">Цена: 14 руб.</div>
+							<button class="add-to-car"> В корзину</button>
 						</div>
-					</div>
-					
-					<!-- Модальное окно -->
-					
-						<div class="popup-fade">
-							<div class="popup">
-								<a class="popup-close" href="#">x</a>
-								<p>Анту́риум — род вечнозелёных растений семейства Ароидные, или Аронниковые. Латинское название рода образовано от древнегреческих слов, </p>
-								<p>означающих «цветок» и «хвост»..</p>
-							</div>		
-						</div>
+					</div>	
 						
-											
-					<div class="col-lg-4 col-md-6 mb-4">
-						<div class="card h-100">   
+					<div class="item-contener">
+						<div class="item" id="i6">   
 							<img src="images/12.jpg" class="card-img-top" alt=" ">       
-							<div class="card-body">
-								<a class="popup-open" href="#">Орхидея Пафиопедилюм микс</a>
-							</div>
-							<div class="card-footer">
-								<div class="row">
-									<div class="col-6">
-										<strong>Цена</strong>: 24,50 руб.
-									</div>
-									<div class="add_cart">
-										<a href="cart.html" class="btn_cart" data-nametitle="Орхидея Пафиопедилюм микс" data-imgtovara="images/12.jpg" data-pricetovar="24,50 р." >В корзину</a>
-									</div>
+							<button class="btn" data-path="6-popup">Орхидея Пафиопедилюм микс</button>
+							<div class="price">Цена: 28 руб.</div>
+							<button class="add-to-car"> В корзину</button>
+						</div>
+					</div>																
+					
+									
+						<div class="modals">
+							<div class="modal-overlay">
+								<div class="modal modal--1" data-target="1-popup">
+									<p>Красивый ярко-желтый гибрид. Это редкое экзотичное растение с необычной, нарядной и крупной листвой.</p>
+									<p>Листовые пластины широкие, продолговатой формы, глянцевые, расположены на длинных черешках, с ярко-золотисто-желтой окраской.</p>
+								</div>
+								<div class="modal modal--2" data-target="2-popup">
+									<p>Бонсай — древнее искусство, которое зародилось в Японии и постепенно распространилось по всему миру.</p>
+									<p>Его суть — выращивание миниатюрных деревьев, которые используются для украшения домов в качестве живой и уникальной части интерьера.</p>
+								</div>
+								<div class="modal modal--3" data-target="3-popup">
+									<p>Лава́нда — род растений семейства яснотковых. Включает примерно 47 видов.</p>
+									<p>Произрастает на Канарских островах, в северной и восточной Африке, в Австралии, на юге Европы, в Аравии и в Индии.</p>
+									<p>Культурные формы выращиваются в садах во всём мире.</p>
+								</div>
+								<div class="modal modal--4" data-target="4-popup">
+									<p>Замиоку́лькас — монотипный род растений семейства Ароидные, представленный единственным видом замиокулькас замиели́стный, происходящим из тропической Африки.
+									<p>Название получил из-за схожести листьев с листьями замии.</p>
+									<p>Синонимы: Caladium zamiaefolium Lodd. et al. — Каладиум замиелистный</p>
+								</div>
+								<div class="modal modal--5" data-target="5-popup">
+									<p>Анту́риум — род вечнозелёных растений семейства Ароидные, или Аронниковые. Латинское название рода образовано от древнегреческих слов, означающих «цветок» и «хвост».</p>
+								</div>
+								<div class="modal modal--6" data-target="6-popup">
+									<p>Орхи́дные, или Ятры́шниковые, также Орхиде́и — крупнейшее семейство однодольных растений.</p>
+									<p>Орхидные — древнее семейство,появившееся в позднемеловую эпоху.</p>
 								</div>
 							</div>
 						</div>
-					</div>
-					
-					<!-- Модальное окно -->
-						
-						<div class="popup-fade">
-							<div class="popup">
-								<a class="popup-close" href="#">x</a>
-								<p>Орхи́дные, или Ятры́шниковые, также Орхиде́и — крупнейшее семейство однодольных растений. Орхидные — древнее семейство,</p>
-								<p>появившееся в позднемеловую эпоху.</p>
-							</div>		
-						</div>
-												
 				</div>
-    
 			</div>
-<script src="https://yandex.st/jquery/2.1.1/jquery.min.js"></script>
-<script src="js/scripts.js"></script>
-<script src="js/cart.js"></script>
+						
 			
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/scripts.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="data.js"></script>
+		<script type="text/javascript">
+        clock();
+        </script>
+	
 	
 </body>
 </html>
